@@ -16,6 +16,8 @@ public class Volvo {
         elektrikliMi=elk;
         yil=yl;
         yakit=ykt;
+        maxHiz=maxHizAta();
+        otomatikPilot=otomatikPilotSorgusu();
 
     }
     public Volvo(){
@@ -25,6 +27,7 @@ public class Volvo {
 
     public int maxHizAta() {
         int maxHiz=0;
+        System.out.println("soru : " + elektrikliMi);
         if (elektrikliMi){
             maxHiz=160;
         }else {

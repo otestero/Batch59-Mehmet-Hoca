@@ -12,11 +12,8 @@ public class C07_PassByValue {
     }
 
     private static void arrDegistir(int[] arr) {
-
         arr= new int[5];
         System.out.println(Arrays.toString(arr)); // [0, 0, 0, 0, 0]
-
-
     }
 
 }

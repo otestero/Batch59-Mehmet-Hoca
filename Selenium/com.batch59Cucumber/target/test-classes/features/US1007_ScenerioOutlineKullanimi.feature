@@ -7,12 +7,12 @@
 
       Given kullanici "amazonUrl" anasayfasinda
       Then kullanici "<istenenKelime>" icin arama yapar
-      And sonuclarin "<istenenKelime>" icerdigini test eder
+      And sonuclarin "<istenenKelimeKontrol>" icerdigini test eder
       And sayfayi kapatir
 
       Examples:
-      |istenenKelime|
-      |nutella      |
-      |java         |
-      |elma         |
-      |armut        |
+      |istenenKelime|istenenKelimeKontrol|
+      |nutella      |nutella             |
+      |java         |java                |
+      |elma         |elma                |
+      |armut        |armut               |

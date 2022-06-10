@@ -13,8 +13,8 @@ public class GuruStepDefinitions {
     GuruPage guruPage=new GuruPage();
     @Given("cookies sorulursa kabul eder")
     public void cookies_sorulursa_kabul_eder() {
-        Driver.getDriver().switchTo().frame(guruPage.cookiesIframe);
-        guruPage.acceptCookies.click();
+    //    Driver.getDriver().switchTo().frame(guruPage.cookiesIframe);
+      //  guruPage.acceptCookies.click();
     }
     @Given("{string}, sutunundaki tum degerleri yazdirir")
     public void sutunundaki_tum_degerleri_yazdirir(String istenenSutun) {
